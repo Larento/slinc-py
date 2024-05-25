@@ -16,4 +16,8 @@ license = {text = "MIT"}
 
 
 [tool.pdm]
-distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pdm>=2.15.3",
+]
